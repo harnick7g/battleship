@@ -1,0 +1,93 @@
+<message type="01">
+    <interlocutor name="client" >
+        <data>
+            IdCliente
+        </data>
+    </interlocutor>
+</message>
+
+<message type="01">
+    <interlocutor name="server">
+        <data>
+            IdServer
+        </data>
+    </interlocutor>
+</message>
+    
+<message type="01">
+    <interlocutor name="client">
+        <data user="UltraUser" password="MegaPassword" />
+    </interlocutor> 
+</message>
+		
+<message type="01">
+    <interlocutor name="server">
+        <data>
+            SessionId|No
+        </data>
+    </interlocutor>
+</message>
+
+<message type="02">
+    <interlocutor name="client" >
+        <data>
+            IdCliente
+        </data>
+    </interlocutor>
+</message>
+
+<message type="02">
+    <interlocutor name="server">
+        <data>
+            IdServer
+        </data>
+    </interlocutor>
+</message>
+
+<message type="02">
+    <interlocutor name="client">
+        <data>
+             SessionId
+        </data>
+    </interlocutor>
+</message>
+
+<message type="02">
+    <interlocutor name="server">
+        <data>
+            OkBye
+        </data>
+    </interlocutor>    
+</message>
+
+<message type="03">
+    <interlocutor name="client">
+        <data>
+            IdCliente
+        </data>
+    </interlocutor>
+</message>
+
+<message type="03">
+    <interlocutor name="server">
+        <data>
+            IDServer
+        </data>
+    </interlocutor>
+</message>
+
+<message type="03">
+    <interlocutor name="client">
+        <data user="UltraUser" password="MegaPassword">
+            ...
+        </data>
+    </interlocutor>
+</message>
+
+<message type="03">
+    <interlocutor name="server">
+        <data>
+            Ok|No ok
+        </data>
+    </interlocutor>
+</message>
